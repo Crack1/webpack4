@@ -53,3 +53,10 @@ npm i babel-polyfill
 /*Presets is use to include all the features for a particular way working*/
 npm i babel-preset-env
 npm i babel-plugin-transform-runtime
+
+require('babel-register') /*Transpile everything after using the babel rules and setup in babel rc*/
+
+npm i webpack-dev-middleware /*Recompile webpack since express*/
+npm i webpack-hot-middleware /*Automatly restart the page*/
+/*Auto load HTML*/
+npm i html-webpack-plugin
